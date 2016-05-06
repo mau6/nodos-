@@ -12,13 +12,13 @@ struct nodo{
 	int dato;
 	int cantidad;
 	int i=0;
-	cout<<"ingrese la cantidad de nodos"<<endl;
+	cout<<"Ingrese la cantidad de nodos que desee"<<endl;
 	cin>>cantidad;
 	while(i<cantidad){
 
 		nuevo=(struct nodo *)malloc(sizeof(struct nodo));
 	nuevo->siguiente=tope;
-	cout<<"ingrese el dato"<<endl;
+	cout<<"Ingrese Dato"<<endl;
 	cin>>dato;
 	nuevo->informacion=dato;
 	tope=nuevo;
