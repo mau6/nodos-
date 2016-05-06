@@ -31,4 +31,3 @@ while(nuevo!=NULL){
 	return 0;
 
 }
-
